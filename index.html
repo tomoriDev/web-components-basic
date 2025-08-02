@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="./tooltip.shadow-dom.js"></script>
+    <script src="./confirm-link.js"></script>
     <style>
       div {
         border: 2px solid orange;
@@ -16,12 +17,14 @@
       <uc-tooltip text="Hola mundito">Web components</uc-tooltip> are awesome!
     </p>
 
-    <hr />
-
     <p>
       <uc-tooltip text="Aquí vamos!">Oliwis</uc-tooltip>
     </p>
 
     <div>This doesn't not get the web component style</div>
+
+    <hr />
+
+    <a is="uc-confirm-link" href="https://www.google.com"> Google </a>
   </body>
 </html>
