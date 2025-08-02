@@ -4,11 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="./tooltip.js"></script>
+    <script src="./tooltip.shadow-dom.js"></script>
+    <style>
+      div {
+        border: 2px solid orange;
+      }
+    </style>
   </head>
   <body>
-    <p><uc-tooltip text="Hola mundito">Web components</uc-tooltip> are awesome!</p>
-    <hr>
-    <p><uc-tooltip text="Aquí vamos!">Here we go!</uc-tooltip></p>
+    <p>
+      <uc-tooltip text="Hola mundito">Web components</uc-tooltip> are awesome!
+    </p>
+
+    <hr />
+
+    <p>
+      <uc-tooltip text="Aquí vamos!">Oliwis</uc-tooltip>
+    </p>
+
+    <div>This doesn't not get the web component style</div>
   </body>
 </html>
